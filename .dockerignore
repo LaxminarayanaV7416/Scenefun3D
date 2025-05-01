@@ -1,0 +1,8 @@
+README.md
+data
+__pycache__
+.venv
+.gitignore
+.git
+Dockerfile
+requirements.txt
