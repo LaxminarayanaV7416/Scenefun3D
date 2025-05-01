@@ -12,7 +12,7 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src/scenefun3d
 
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
