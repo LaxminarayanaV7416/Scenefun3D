@@ -1,6 +1,8 @@
-import os
+from gui.server import ServerGUI
 
+def main():
+    server = ServerGUI("./data", "420673", "42445198")
+    server.run()
 
-print("---------------")
-print(os.getcwd())
-print("---------------")
+if __name__ == "__main__":
+    main()
