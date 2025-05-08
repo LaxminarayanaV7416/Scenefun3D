@@ -1,6 +1,6 @@
 # SceneFun3D Viewer with GUI
 
-This project provides a lightweight and interactive GUI to explore the **SceneFun3D** dataset with fine-grained annotations and 3D pointcloud visualization. Built using Python and [Visor](https://github.com/POSTECH-CVLab/Visor), this tool enables users to inspect how functional elements in indoor scenes—such as knobs, handles, and buttons—are annotated and visualized using frame-by-frame RGB-D video data converted into a dataset of images (both regular and depth).
+This project provides a lightweight and interactive GUI to explore the **SceneFun3D** dataset with fine-grained annotations and 3D pointcloud visualization. Built using Python and [viser](https://pypi.org/project/viser/), this tool enables users to inspect how functional elements in indoor scenes—such as knobs, handles, and buttons—are annotated and visualized using frame-by-frame RGB-D video data converted into a dataset of images (both regular and depth).
 
 SceneFun3D is a novel dataset designed to push the boundaries of functionality-driven 3D scene understanding by introducing:
 - Over **14.8k annotated** functional interaction points across **710** high-resolution indoor scenes.
