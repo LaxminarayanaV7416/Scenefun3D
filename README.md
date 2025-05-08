@@ -1,15 +1,35 @@
-## SceneFun3D with GUI
+# SceneFun3D Viewer with GUI
 
+This project provides a lightweight and interactive GUI to explore the **SceneFun3D** dataset with fine-grained annotations and 3D pointcloud visualization. Built using Python and [Visor](https://github.com/POSTECH-CVLab/Visor), this tool enables users to inspect how functional elements in indoor scenes—such as knobs, handles, and buttons—are annotated and visualized using frame-by-frame RGB-D video data converted into a dataset of images (both regular and depth).
 
-This documentation provides a comprehensive guide to help you efficiently view the SceneFun3D dataset with anotations. It includes detailed descriptions of the data assets, step-by-step instructions for downloading the data, utilizing the project’s tools and libraries, and guidelines for running the evaluation benchmarks.
-below are few screenshots of the GUI where you can clearly see how the anotations and pointcloud ares shown from a video to 3D model using Fine-Grained Functionality and Affordance Understanding in 3D Scenes.
+SceneFun3D is a novel dataset designed to push the boundaries of functionality-driven 3D scene understanding by introducing:
+- Over **14.8k annotated** functional interaction points across **710** high-resolution indoor scenes.
+- **Affordance segmentation**, **task-driven grounding**, and **3D motion estimation**.
+- **Natural language task descriptions** aligned with actionable elements in the scene.
 
+> 📁 We are currently using the example dataset provided by the official SceneFun3D paper, where each image frame is paired with depth data from a video capture.
 
-![App Screenshot](assets/rgb_laserscan.png)
+---
 
+## 🔍 Features
 
-![App Screenshot2](assets/anotations.png)
+- 🧠 Fine-grained 3D functionality and affordance visualization
+- 📸 Point cloud rendering of image and depth data
+- 📌 Annotation overlays and affordance masks
+- 🌐 Task-based interactions through motion and language cues (Working on it!)
+- ⚙️ Easily extendable with additional SceneFun3D scenes (Need to provide the dataset that contains both the images and thier depth captures)
 
+---
+
+## 📸 GUI Screenshots
+
+Visualizations rendered using the provided RGB-D frames from SceneFun3D:
+
+![RGB & Laser Scan View](assets/rgb_laserscan.png)
+
+![Annotation Overlay](assets/anotations.png)
+
+---
 
 This project uses [`uv`](https://github.com/astral-sh/uv), a fast Python package manager and environment tool, to manage dependencies and virtual environments. The app can also be run inside a Docker container.
 ### 🚀 Getting Started
